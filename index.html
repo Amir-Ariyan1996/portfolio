@@ -4,27 +4,37 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Amir Aryan's Portfolio</title>
+    <script
+      src="https://kit.fontawesome.com/f01250f2a2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="styles/globals.css" />
+
     <link rel="stylesheet" type="text/css" href="styles/english.css" />
     <script src="./javascript/multilanguage.js"></script>
   </head>
   <body>
-    <header id="header" class="container flex-row-between">
-      <nav class="flex-row-8">
-        <a data-i18n="about" href="#about"></a>
-        <a data-i18n="skills" href="#skills"></a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-      </nav>
-      <button>
-        <ul>
-          <li>
+    <header>
+      <div class="container flex-row-between">
+        <nav class="flex-row-8">
+          <a data-i18n="about" href="#about"></a>
+          <a data-i18n="skills" href="#skills"></a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="dropdown language-dropdown">
+          <i class="fa-solid fa-globe"></i>
+          <div class="dropdown-content">
             <a href="index.html" onclick="changeLanguage('en')">English</a>
-          </li>
-          <li>
-            <a href="index.html" onclick="changeLanguage('fa')">Farsi</a>
-          </li>
-        </ul>
-      </button>
+            <a href="index.html" onclick="changeLanguage('fa')">فارسی</a>
+          </div>
+        </div>
+      </div>
     </header>
+
+    <main>
+      
+    </main>
   </body>
 </html>

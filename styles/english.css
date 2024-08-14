@@ -1,40 +1,20 @@
-* {
-  box-sizing: border-box;
+header {
+  background-color: #27262c;
+  color: #b7b7b7;
+  border: 1px solid #b7b7b7;
 }
 
-.container {
-  @media only screen and (max-width: 1024px) {
-    width: 360px;
-  }
-  width: 1024px;
-  margin: auto;
-}
-
-button {
+.language-dropdown {
   cursor: pointer;
-  height: fit-content;
 }
 
-/* variables */
-
-/* utilities */
-.flex-row-between {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  justify-items: center;
+.language-dropdown .dropdown-content {
+  background-color: #27262c;
+  padding: 8px 16px;
+  border-radius: 0 0 8px 8px;
 }
 
-.flex-row-8 {
-  display: flex;
-  flex-direction: row;
-
-  gap: 8px;
+main {
+  background-color: #171225;
+  color: #b7b7b7;
 }
-
-.flex-col-8 {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-/* class="container @media only screen and (max-width: 1024px) { flex-row-between }" */
