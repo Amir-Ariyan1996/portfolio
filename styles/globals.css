@@ -48,7 +48,6 @@ a {
 
 .flex-row-8 {
   display: flex;
-  flex-direction: row;
   gap: 8px;
 }
 
