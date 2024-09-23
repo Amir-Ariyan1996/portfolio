@@ -9,6 +9,11 @@ nav {
   }
 }
 
+.about-profile {
+  float: right;
+  margin-left: 20px;
+}
+
 .about-paragraph {
   direction: rtl;
 }

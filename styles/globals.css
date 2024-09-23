@@ -2,16 +2,27 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  list-style: none;
 }
 
 .container {
+  margin: auto;
   @media only screen and (max-width: 1024px) {
     width: 360px;
     padding: 8px;
   }
-  width: 1024px;
-  margin: auto;
-  padding: 16px;
+  @media only screen and (min-width: 1024px) {
+    width: 1024px;
+    padding: 16px;
+  }
+  @media only screen and (min-width: 1280px) {
+    width: 1280px;
+    padding: 24px;
+  }
+  @media only screen and (min-width: 1536px) {
+    width: 1536px;
+    padding: 32px;
+  }
 }
 
 button {

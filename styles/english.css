@@ -18,7 +18,7 @@ main {
   background-color: #161718;
   color: #f2f2f2;
 }
-
+/* about */
 .about-section {
   display: block;
 }
@@ -29,13 +29,62 @@ main {
   height: auto;
   float: left;
   margin-right: 20px;
-  @media only screen and (max-width: 1024px) {
-    display: inline-block;
-    float: right;
-    margin-left: 20px;
-  }
 }
 
 .about-paragraph {
   text-align: justify;
+}
+
+/* projects */
+/* breweries styles */
+.breweries {
+  /* padding: 2rem; */
+}
+
+.breweries > ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 1rem;
+}
+
+.breweries > ul > li {
+  border: 1px solid #e2e2e2;
+  border-radius: 0.5rem;
+}
+
+.breweries > ul > li > figure {
+  max-height: 220px;
+  overflow: hidden;
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  position: relative;
+}
+
+.breweries > ul > li > figure > img {
+  width: 100%;
+}
+
+.breweries > ul > li > figure > figcaption {
+  position: absolute;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+}
+
+.breweries > ul > li > figure > figcaption > h3 {
+  color: white;
+  padding: 0.75rem;
+  font-size: 1.25rem;
+}
+
+.breweries > ul > li > p {
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 1rem 0.75rem;
+  color: #666666;
+}
+
+.breweries > ul > li > a {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
 }
