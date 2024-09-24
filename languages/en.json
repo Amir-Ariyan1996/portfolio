@@ -4,5 +4,37 @@
   "Projects": "Projects",
   "Contact": "Contact",
   "about-content": "I am Amir Aryan, a front-end web application developer using JavaScript. Modular development and organized coding based on architecture tailored to the needs are the necessities of developing an upgradeable platform, and it is my effort to observe these principles and rules. Resolving errors, debugging, improving application performance, designing with attention to detail, and acquiring new skills in line with project requirements are my strengths during the appropriate period.",
-  "journey-content": "Amir Aryan is an accomplished individual who has made significant contributions in the fields of technology and civil engineering. Known for his unwavering dedication and passion, Amir has emerged as a prominent figure, impacting various fronts. Amir's journey began with his service in the civil engineering field, where he served for three years as a structural designer. Driven by his desire to make a difference, Amir leveraged his strong foundation in programming languages such as C and MATLAB, which provided him with a deep understanding of mathematical and computational concepts. This solid technical background eased his transition into the tech industry, where he now thrives as a frontend developer, bringing a unique perspective from his engineering background into his work. "
+  "journey-content": "Amir Aryan is an accomplished individual who has made significant contributions in the fields of technology and civil engineering. Known for his unwavering dedication and passion, Amir has emerged as a prominent figure, impacting various fronts. Amir's journey began with his service in the civil engineering field, where he served for three years as a structural designer. Driven by his desire to make a difference, Amir leveraged his strong foundation in programming languages such as C and MATLAB, which provided him with a deep understanding of mathematical and computational concepts. This solid technical background eased his transition into the tech industry, where he now thrives as a frontend developer, bringing a unique perspective from his engineering background into his work. ",
+  "projects": [
+    {
+      "image": "/assets/image/hyperme.png",
+      "title": "Hyperme chain stores",
+      "description": "Developed advanced geolocation interactions for Hyperme's chain stores using Leaflet, enhancing user experience with interactive maps and clustering functionality. Integrated state management and optimized client-server communication to support real-time updates in news, articles, and club features.",
+      "link": "https://www.hyperme.ir/"
+    },
+    {
+      "image": "/assets/image/phylon.png",
+      "title": "Phylon Dapp",
+      "description": "Integrated MetaMask into Phylon.io's dashboard using Wagmi for seamless smart contract management on Polygon and Ethereum networks. Designed dynamic 3D animations with WebGL and Three.js, enhancing landing page interactivity and user engagement.",
+      "link": "https://phylon.io/"
+    },
+    {
+      "image": "/assets/image/lilianmode.png",
+      "title": "Lilian Mode Store",
+      "description": "Developed a custom WordPress plugin for Lilian Mode, coding the front-end with JavaScript, HTML, and tailwindcss based on figma design.",
+      "link": "https://www.lilianmode.ir/"
+    },
+    {
+      "image": "/assets/image/1881.png",
+      "title": "1881studio architectural studio",
+      "description": "Developed the front-end for 1881studio, an architectural studio, resolving critical hydration errors by implementing state management.",
+      "link": "https://1881studio.com/"
+    },
+    {
+      "image": "/assets/image/siebel.png",
+      "title": "Behsacorp Siebel CRM OpenUI",
+      "description": "Customized Siebel CRM for Behsacorp using OpenUI, focusing on redesigning the user interface with JavaScript and CSS to create a more modern, responsive platform.",
+      "link": "https://behsacorp.com/"
+    }
+  ]
 }

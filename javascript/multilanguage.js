@@ -3,6 +3,25 @@ function updateContent(languageData) {
     const key = element.getAttribute("data-i18n");
     element.textContent = languageData[key];
   });
+
+  // Dynamically generate the projects list
+  const projectsList = document.getElementById("projects-list");
+  projectsList.innerHTML = ""; // Clear existing content before rendering
+
+  languageData.projects.forEach((project) => {
+    const li = document.createElement("li");
+
+    li.innerHTML = `
+      <figure>
+        <img src="${project.image}" alt="${project.title}">
+        <figcaption><h3>${project.title}</h3></figcaption>
+      </figure>
+      <p>${project.description}</p>
+      <a target="_blank" href="${project.link}">Visit Website</a>
+    `;
+
+    projectsList.appendChild(li);
+  });
 }
 
 function setLanguagePreferences(language) {
