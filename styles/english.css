@@ -145,7 +145,8 @@ main {
 }
 
 /* LinkedIn Icon Hover (pulse animation) */
-.linkedin-icon:hover {
+.linkedin-icon:hover,
+.resume-icon:hover {
   transform: scale(1.1);
   animation: pulse 0.7s infinite;
 }
