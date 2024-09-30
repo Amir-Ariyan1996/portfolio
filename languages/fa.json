@@ -1,7 +1,41 @@
 {
   "about": "درباره",
-  "skills": "مهارت ها",
   "Projects": "پروژه ها",
   "Contact": "ارتباط",
-  "about-content": "من امیر آریان، توسعه‌دهنده فرانت‌اند وب‌اپلیکیشن‌های مبتنی بر زبان جاوا اسکریپت هستم. توسعه ماژولار و کدنویسی مرتب مبتنی بر معماری متناسب با نیازها و ضرورت‌های توسعه یک پلتفرم قابل ارتقا، از اصولی است که من در تلاش برای رعایت آن‌ها هستم. برطرف کردن خطاها، دیباگ کردن، افزایش عملکرد برنامه، طراحی با توجه به جزئیات، و کسب مهارت‌های جدید همگام با نیازهای پروژه، همگی طی پروسه‌ای زمانی متناسب از نقاط قوت من شمرده می‌شوند."
+  "about-me": "درباره من",
+  "about-content": "من امیر آریان، توسعه‌دهنده فرانت‌اند وب‌اپلیکیشن‌های مبتنی بر زبان جاوا اسکریپت هستم. توسعه ماژولار و کدنویسی مرتب مبتنی بر معماری متناسب با نیازها از ضرورت‌های توسعه یک پلتفرم قابل ارتقا است که من در تلاش برای رعایت آن‌ها هستم. برطرف کردن خطاها، دیباگ کردن، افزایش عملکرد برنامه، طراحی با توجه به جزئیات، و کسب مهارت‌های جدید همگام با نیازهای پروژه، همگی طی پروسه‌ای زمانی متناسب از نقاط قوت من شمرده می‌شوند.",
+  "my-journey": "مسیر من",
+  "journey-content": "امیر آریان فردی موفق است که در حوزه‌های فناوری اطلاعات و مهندسی عمران دستاوردهای قابل توجهی داشته است. امیر به تعهد و انگیزه بی‌پایان  شناخته می‌شود و به عنوان چهره‌ای برجسته در زمینه‌های مختلف تاثیرگذار بوده است. مسیر حرفه‌ای او از مهندسی عمران آغاز شد، جایی که او به مدت سه سال به عنوان طراح سازه فعالیت می‌کرد. امیر از پایه‌های قوی خود در زبان‌های برنامه‌نویسی مانند متلب و سی بهره گرفت و به درک عمیقی از مفاهیم الگوریتم و ساختمان داده رسید. این پس‌زمینه فنی، حرکت او به صنعت فناوری را آسان کرد. اکنون به عنوان یک توسعه‌دهنده فرانت‌اند، با بهره‌گیری از دیدگاه منحصر به فردی که از مهندسی به دست آورده، با موفقیت مسیر خود را دنبال می کند.",
+  "projects": [
+    {
+      "image": "/assets/image/hyperme.png",
+      "title": "Hyperme chain stores",
+      "description": "Developed advanced geolocation interactions for Hyperme's chain stores. Integrated state management in news, articles, and club features.",
+      "link": "https://www.hyperme.ir/"
+    },
+    {
+      "image": "/assets/image/phylon.png",
+      "title": "Phylon Dapp",
+      "description": "Integrated MetaMask into Phylon.io's dashboard using Wagmi for seamless smart contract management on Polygon and Ethereum networks. Designed dynamic 3D animations with WebGL and Three.js, enhancing landing page interactivity.",
+      "link": "https://phylon.io/"
+    },
+    {
+      "image": "/assets/image/lilianmode.png",
+      "title": "Lilian Mode Store",
+      "description": "Developed a custom WordPress plugin for Lilian Mode, coding the front-end with JavaScript, HTML, and tailwindcss based on figma design.",
+      "link": "https://www.lilianmode.ir/"
+    },
+    {
+      "image": "/assets/image/1881.png",
+      "title": "1881studio architectural studio",
+      "description": "Developed the front-end for 1881studio, an architectural studio, resolving critical hydration errors by implementing state management.",
+      "link": "https://1881studio.com/"
+    },
+    {
+      "image": "/assets/image/siebel.png",
+      "title": "Behsacorp Siebel CRM OpenUI",
+      "description": "Customized Siebel CRM for Behsacorp using OpenUI, focusing on redesigning the user interface with JavaScript and CSS to create a more modern, responsive platform.",
+      "link": "https://www.behsacorp.com/"
+    }
+  ]
 }

@@ -4,6 +4,11 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Amir Aryan's Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+
     <script
       src="https://kit.fontawesome.com/f01250f2a2.js"
       crossorigin="anonymous"
@@ -18,7 +23,6 @@
       <div class="container flex-row-between">
         <nav class="flex-row-8">
           <a data-i18n="about" href="#about"></a>
-          <a data-i18n="skills" href="#skills"></a>
           <a data-i18n="Projects" href="#projects"></a>
           <a data-i18n="Contact" href="#contact"></a>
         </nav>
@@ -35,24 +39,48 @@
 
     <main>
       <div class="container">
-        <section class="about-section">
+        <section class="about-section" id="about">
           <img
-            src="./assets/image/profile.png"
+            src="./assets/image/profile.jpg"
             alt="amir aryan's profile image"
             width="200"
             height="200"
             class="about-profile"
           />
-          <h2>About Me</h2>
+          <h2 data-i18n="about-me"></h2>
           <p class="about-paragraph" data-i18n="about-content"></p>
-          <h2>My Journey</h2>
-
+          <h2 data-i18n="my-journey"></h2>
           <p class="journey-paragraph" data-i18n="journey-content"></p>
         </section>
 
-        <section class="projects">
-          <h2>Projects</h2>
+        <section class="projects" id="projects">
+          <h2 data-i18n="Projects"></h2>
           <ul id="projects-list"></ul>
+        </section>
+        <section class="contact" id="contact">
+          <h2 data-i18n="Contact"></h2>
+          <address>
+            <a
+              target="_blank"
+              href="tel:+989051856633"
+              class="fas fa-phone phone-icon"
+            ></a>
+            <a
+              target="_blank"
+              href="mailto:amir.aryan.dv@gmail.com"
+              class="fas fa-envelope mail-icon"
+            ></a>
+            <a
+              target="_blank"
+              href="https://github.com/amiraryan1996/"
+              class="fab fa-github github-icon"
+            ></a>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/in/amiraryan1996/"
+              class="fab fa-linkedin linkedin-icon"
+            ></a>
+          </address>
         </section>
       </div>
     </main>

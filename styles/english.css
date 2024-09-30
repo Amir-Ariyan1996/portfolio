@@ -51,7 +51,8 @@ main {
 }
 
 .about-paragraph {
-  text-align: justify;
+  text-align: ;
+  text-justify: inter-word;
 }
 
 /* projects */
@@ -71,6 +72,7 @@ main {
   border: 1px solid #e2e2e2;
   border-radius: 0.5rem;
   transition: transform 0.3s;
+  padding-bottom: 8px;
 }
 .projects > ul > li:hover {
   transform: translateY(-10px);
@@ -112,4 +114,38 @@ main {
 .projects > ul > li > a {
   color: blue;
   margin: 0.5rem;
+}
+
+.phone-icon,
+.mail-icon,
+.github-icon,
+.linkedin-icon {
+  font-size: 1.5rem;
+  color: #000;
+  margin: 0 15px;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* Phone Icon Hover */
+.phone-icon:hover {
+  transform: rotate(10deg);
+  animation: ring 0.5s infinite;
+}
+
+/* Mail Icon Hover (shake animation) */
+.mail-icon:hover {
+  transform: scale(1.1);
+  animation: shake 0.5s infinite;
+}
+
+/* GitHub Icon Hover (bounce animation) */
+.github-icon:hover {
+  transform: scale(1.1);
+  animation: bounce 0.5s infinite;
+}
+
+/* LinkedIn Icon Hover (pulse animation) */
+.linkedin-icon:hover {
+  transform: scale(1.1);
+  animation: pulse 0.7s infinite;
 }

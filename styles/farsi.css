@@ -1,3 +1,6 @@
+body {
+  font-family: 'Vazirmatn', Arial, sans-serif;
+}
 header .container,
 nav {
   flex-direction: row-reverse;
@@ -14,6 +17,8 @@ nav {
   margin-left: 20px;
 }
 
-.about-paragraph {
+p,
+h2,
+address {
   direction: rtl;
 }
