@@ -6,6 +6,7 @@ header {
 
 .language-dropdown {
   cursor: pointer;
+  transform: translate(-20px, 0px);
 }
 
 .language-dropdown .dropdown-content {

@@ -1,9 +1,12 @@
 body {
-  font-family: 'Vazirmatn', Arial, sans-serif;
+  font-family: "Vazirmatn", Arial, sans-serif;
 }
 header .container,
 nav {
   flex-direction: row-reverse;
+}
+.language-dropdown {
+  transform: translate(20px, 0px);
 }
 
 .about-section {
